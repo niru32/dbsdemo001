@@ -7,6 +7,6 @@ $items[$i] = "This is message $i";
 }
 header('Content-Type: application/json');
 
-$jsonOutput = josn_encode($iitems);
+$jsonOutput = json_encode($iitems);
 
 echo $jsonOutput;
